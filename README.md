@@ -1,1 +1,3 @@
-0-current_working_directory - Write a script that prints the absolute path name of the current working directory.
+Holberton-system_engineering-devops
+
+This repository is to become more familiar with shell navigation. 
