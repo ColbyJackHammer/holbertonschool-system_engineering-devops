@@ -1,2 +1,2 @@
 #!/bin/bash
-find /0x02-shell_redirections -type f -mtime 10 | ls -ltsha | tail -n 10
+ls -ltr | tail -10
