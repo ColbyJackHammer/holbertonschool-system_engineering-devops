@@ -3,7 +3,6 @@
 COUNTER=1
 while [ $COUNTER -le 20 ]
 do
-	echo $COUNTER
     case $COUNTER in
 
         4)
@@ -18,6 +17,8 @@ do
 	    echo $COUNTER
 	    echo "bad luck from Italy"
 	    ;;
+	*)
+	    echo $COUNTER
     esac
     ((COUNTER++))
 done
