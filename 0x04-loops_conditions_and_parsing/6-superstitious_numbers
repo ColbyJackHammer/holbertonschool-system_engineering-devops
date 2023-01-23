@@ -17,9 +17,8 @@ do
 	    echo $COUNTER
 	    echo "bad luck from Italy"
 	    ;;
-	*)
-	    echo $COUNTER
-	    ;;
     esac
+else
+	echo ""
     let COUNTER+=1
 done
