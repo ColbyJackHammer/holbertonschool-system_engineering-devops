@@ -19,5 +19,5 @@ do
 	    echo "bad luck from Italy"
 	    ;;
     esac
-    ((COUNTER++))
+    let COUNTER+=1
 done
