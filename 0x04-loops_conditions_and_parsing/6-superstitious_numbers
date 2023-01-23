@@ -21,6 +21,5 @@ do
 	    echo $COUNTER
 	    ;;
     esac
-    echo $COUNTER
     let COUNTER+=1
 done
