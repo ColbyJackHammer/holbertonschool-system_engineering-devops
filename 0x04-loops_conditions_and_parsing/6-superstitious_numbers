@@ -19,6 +19,7 @@ do
 	    ;;
 	18)
 	    echo $COUNTER
+	    ;;
     esac
     let COUNTER+=1
 done
