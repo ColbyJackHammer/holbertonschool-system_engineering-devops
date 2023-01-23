@@ -17,7 +17,7 @@ do
 	    echo $COUNTER
 	    echo "bad luck from Italy"
 	    ;;
-	18)
+	*)
 	    echo $COUNTER
 	    ;;
     esac
