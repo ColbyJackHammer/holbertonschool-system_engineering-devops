@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+echo "Civic, Integra, Cruze, Supra, Skyline, Viper " /n
+echo -n "Enter the type of car:  "
+read CAR
+echo -n "The $CAR has "
+case $CAR in
+  civic | Civic | integra | Integra | cruze | Cruze ) echo -n "less than 100";;
+  supra | Supra | skyline | Skyline | viper | Viper ) echo -n "more than 500";;
+  *) echo -n "an unknown number of";;
+esac
+echo " horespower."
