@@ -2,7 +2,7 @@
 # Write a Bash script that displays numbers from 1 to 100.
 
 COUNTER=1
-while [ $COUNTER -lt 101 ]
+while [ $COUNTER -le 100 ]
 do
     if [ $((COUNTER%15)) = 0 ]
     then
@@ -16,5 +16,5 @@ do
     else
         echo "$COUNTER"
     fi
-    let COUNTER+=1
+    ((COUNTER++))
 done
