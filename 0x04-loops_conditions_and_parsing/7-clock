@@ -12,5 +12,5 @@ do
 	let MINUTES+=1
     done
     let HOURS+=1
-
+    fi
 done
